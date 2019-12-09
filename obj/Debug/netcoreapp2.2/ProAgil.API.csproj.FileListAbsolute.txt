@@ -1,0 +1,16 @@
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\ProAgil.API.deps.json
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.json
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.dev.json
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\grsilva1\ProjetosCurso\ProAgil\bin\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfoInputs.cache
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfo.cs
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.RazorTargetAssemblyInfo.cache
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cache
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cs
+C:\Users\grsilva1\ProjetosCurso\ProAgil\obj\Debug\netcoreapp2.2\ProAgil.API.csprojAssemblyReference.cache

@@ -23,17 +23,52 @@ namespace ProAgil.Controllers
                     Local = "Juiz de Fora - MG",
                     Lote = "1° Lote",
                     QtdPessoas = Int32.Parse("250"),
-                    DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy")
+                    DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
+                    ImgUrl = "Teste 1"
                     
+                },
+                
+                new Evento()
+                {
+                    EventoId  = 2,
+                    Tema = "Angular e .NET Core",
+                    Local = "Juiz de Fora - MG",
+                    Lote = "3° Lote",
+                    QtdPessoas = Int32.Parse("450"),
+                    DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
+                    ImgUrl = "teste2"
                 }
             };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<Evento> Get(int id)
         {
-            return "value";
+            return new Evento[] {
+                new Evento()
+                {
+                    EventoId  = 1,
+                    Tema = "Angular e .NET Core",
+                    Local = "Juiz de Fora - MG",
+                    Lote = "1° Lote",
+                    QtdPessoas = Int32.Parse("250"),
+                    DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
+                    ImgUrl = "Teste 1"
+
+                },
+
+                new Evento()
+                {
+                    EventoId  = 2,
+                    Tema = "Angular e .NET Core",
+                    Local = "Juiz de Fora - MG",
+                    Lote = "3° Lote",
+                    QtdPessoas = Int32.Parse("450"),
+                    DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
+                    ImgUrl = "teste2"
+                }
+            }.FirstOrDefault(x => x.EventoId == id);
         }
 
         // POST api/values
