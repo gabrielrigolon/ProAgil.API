@@ -51,8 +51,8 @@ namespace ProAgil.Controllers
                     EventoId  = 9,
                     Tema = "Angular e .NET Core",
                     Local = "Juiz de Fora - MG",
-                    Lote = "1° Lote",
-                    QtdPessoas = Int32.Parse("250"),
+                    Lote = "3° Lote",
+                    QtdPessoas = Int32.Parse("450"),
                     DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
                     ImgUrl = "Teste 35"
 
