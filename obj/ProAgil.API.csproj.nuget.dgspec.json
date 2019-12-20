@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\grsilva1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\grsilva1\\ProjetosCurso\\ProAgil\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\grsilva1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

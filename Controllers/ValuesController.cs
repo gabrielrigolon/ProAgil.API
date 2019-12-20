@@ -48,25 +48,25 @@ namespace ProAgil.Controllers
             return new Evento[] {
                 new Evento()
                 {
-                    EventoId  = 1,
+                    EventoId  = 9,
                     Tema = "Angular e .NET Core",
                     Local = "Juiz de Fora - MG",
                     Lote = "1° Lote",
                     QtdPessoas = Int32.Parse("250"),
                     DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
-                    ImgUrl = "Teste 1"
+                    ImgUrl = "Teste 35"
 
                 },
 
                 new Evento()
                 {
-                    EventoId  = 2,
+                    EventoId  = 20,
                     Tema = "Angular e .NET Core",
                     Local = "Juiz de Fora - MG",
                     Lote = "3° Lote",
                     QtdPessoas = Int32.Parse("450"),
                     DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
-                    ImgUrl = "teste2"
+                    ImgUrl = "blitzkrieg bop"
                 }
             }.FirstOrDefault(x => x.EventoId == id);
         }
