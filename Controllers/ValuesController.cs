@@ -48,7 +48,7 @@ namespace ProAgil.Controllers
             return new Evento[] {
                 new Evento()
                 {
-                    EventoId  = 9,
+                    EventoId  = 15,
                     Tema = "Angular e .NET Core",
                     Local = "Juiz de Fora - MG",
                     Lote = "1° Lote",
